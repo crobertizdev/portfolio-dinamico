@@ -1,0 +1,7 @@
+.grid .item {
+  width: calc(50% - 2rem);
+}
+
+header form .barra-busqueda {
+  width: 100%;
+}

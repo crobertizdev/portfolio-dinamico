@@ -1,0 +1,28 @@
+.grid {
+  position: relative;
+  opacity: 0;
+  /* Transicion al cargar todas las imagenes del grid */
+  transition: opacity 0.5s linear 1s;
+
+  .item {
+    display: block;
+    position: absolute;
+    padding: 0;
+    margin: 1rem;
+    width: calc(33.333333% - 2rem);
+
+    .item-content {
+      position: relative;
+
+      img {
+        vertical-align: top;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+/* Clase que se muestra al cargar todas las imagenes */
+.grid-imagenes-cargadas {
+  opacity: 1;
+}

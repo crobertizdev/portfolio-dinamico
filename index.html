@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Open Sans 400 700 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio Dinámico</title>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/4bd224e08c.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Dispositivos Moviles -->
+    <link rel="stylesheet" href="./css/mobile.css" media="(max-width: 768px)" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="logo">
+          <h1>Carlos Robertiz</h1>
+          <p>Desarrollador Web</p>
+        </div>
+
+        <form action="#">
+          <input
+            type="text"
+            placeholder="Buscar..."
+            class="barra-busqueda"
+            id="barra-busqueda"
+          />
+        </form>
+
+        <div class="categorias">
+          <a href="#" class="activo">Todos</a>
+          <a href="#">Naturaleza</a>
+          <a href="#">Ciudades</a>
+          <a href="#">Personas</a>
+          <a href="#">Animales</a>
+        </div>
+      </header>
+
+      <section class="grid">
+        <div
+          class="item"
+          data-categoria="ciudades"
+          data-etiquetas="ciudades autos carros calles coches"
+          data-descripcion="Descripcion de la imagen"
+        >
+          <div class="item-content">
+            <img src="./img/ciudad1.png" alt="Ciudad" />
+          </div>
+        </div>
+        <div
+          class="item"
+          data-categoria="animales"
+          data-etiquetas="animales leones mamiferos"
+          data-descripcion="Descripcion de la imagen"
+        >
+          <div class="item-content">
+            <img src="./img/animal1.png" alt="León" />
+          </div>
+        </div>
+        <div
+          class="item"
+          data-categoria="personas"
+          data-etiquetas="personas mujeres"
+          data-descripcion="Descripcion de la imagen"
+        >
+          <div class="item-content">
+            <img src="./img/persona1.png" alt="Mujer" />
+          </div>
+        </div>
+        <div
+          class="item"
+          data-categoria="naturaleza"
+          data-etiquetas="paisajes montañas"
+          data-descripcion="Descripcion de la imagen"
+        >
+          <div class="item-content">
+            <img src="./img/paisaje2.png" alt="Paisaje" />
+          </div>
+        </div>
+        <div
+          class="item"
+          data-categoria="animales"
+          data-etiquetas="animales pandas"
+          data-descripcion="Descripcion de la imagen"
+        >
+          <div class="item-content">
+            <img src="./img/animal2.png" alt="Panda" />
+          </div>
+        </div>
+        <div
+          class="item"
+          data-categoria="personas"
+          data-etiquetas="mujeres personas"
+          data-descripcion="Descripcion de la imagen"
+        >
+          <div class="item-content">
+            <img src="./img/persona2.png" alt="Mujer" />
+          </div>
+        </div>
+        <div
+          class="item"
+          data-categoria="ciudades"
+          data-etiquetas="edificios ciudades autos coches carros calles"
+          data-descripcion="Descripcion de la imagen"
+        >
+          <div class="item-content">
+            <img src="./img/ciudad2.png" alt="Ciudad" />
+          </div>
+        </div>
+        <div
+          class="item"
+          data-categoria="naturaleza"
+          data-etiquetas="naturaleza hojas plantas verde"
+          data-descripcion="Descripcion de la imagen"
+        >
+          <div class="item-content">
+            <img src="./img/naturaleza1.png" alt="Plantas" />
+          </div>
+        </div>
+        <div
+          class="item"
+          data-categoria="paisaje"
+          data-etiquetas="paisajes montañas mar playas"
+          data-descripcion="Descripcion de la imagen"
+        >
+          <div class="item-content">
+            <img src="./img/paisaje1.png" alt="Paisaje" />
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <section class="redes-sociales">
+          <div class="footer-icon">
+            <a href="#" target="_blank " class="twitter"
+              ><i class="fa fa-twitter"></i
+            ></a>
+          </div>
+          <div class="footer-icon">
+            <a href="#" target="_blank " class="instagram"
+              ><i class="fa fa-instagram"></i
+            ></a>
+          </div>
+          <div class="footer-icon" class="github">
+            <a href="#" target="_blank "><i class="fa fa-github"></i></a>
+          </div>
+        </section>
+        <section class="creador">
+          <p>
+            Creado por <a href="#">Carlos Robertiz</a> |
+            <a href="#">Portafolio</a>
+          </p>
+        </section>
+      </footer>
+    </div>
+    <!-- Libreria Muuri -->
+    <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.5/dist/muuri.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
