@@ -13,4 +13,4 @@
  <img src="./design/desktop.png">
       
  ## Mobile
- <img src="./design/movile.png">
+ <img src="./design/mobile.png">
