@@ -4,7 +4,8 @@
   "description": "Portafolio Dinámico que usa la librería de Muuri para el filtrado de imágenes y el listener de la barra de búsqueda.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d ."
   },
   "repository": {
     "type": "git",
