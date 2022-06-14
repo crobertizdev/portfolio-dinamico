@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-dinamico",
+  "version": "1.0.0",
+  "description": "Portafolio Dinámico que usa la librería de Muuri para el filtrado de imágenes y el listener de la barra de búsqueda.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crobertizdev/portfolio-dinamico.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crobertizdev/portfolio-dinamico/issues"
+  },
+  "homepage": "https://github.com/crobertizdev/portfolio-dinamico#readme",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
